@@ -1,6 +1,6 @@
 {
-  "active": false,
-  "hostname": "vpsfree-13",
+  "active": true,
+  "hostname": "vpsfree-14",
   "os": "Ubuntu 26.04.1 LTS",
   "kernel": "7.0.0-1017-azure",
   "cpu_threads": 4,
@@ -9,31 +9,26 @@
   "ssh_port": 22,
   "ssh_user": "vps",
   "ssh_listen": "ok",
-  "public_ip": "",
-  "tailscale_ip": "",
-  "tailscale_dns": "",
-  "started_at": "2026-10-22T08:28:27Z",
-  "expires_at": "2026-10-22T14:10:27Z",
+  "public_ip": "48.217.109.216",
+  "tailscale_ip": "100.99.48.102",
+  "tailscale_dns": "runnervm8k3b6.tail85b74c.ts.net",
+  "started_at": "2026-10-22T14:13:31Z",
+  "expires_at": "2026-10-22T19:55:31Z",
   "duration_menit": 342,
-  "run_id": "39745465047",
+  "run_id": "39790460051",
   "run_attempt": "1",
-  "run_number": "13",
-  "run_url": "https://github.com/edzzn60-cloud/VPS-UBUNTU/actions/runs/39745465047",
+  "run_number": "14",
+  "run_url": "https://github.com/edzzn60-cloud/VPS-UBUNTU/actions/runs/39790460051",
   "mode": "vpsfree",
   "renewal": "ya",
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "status": "offline",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
+      "status": "ok",
+      "ip": "100.99.48.102",
+      "magicdns": "runnervm8k3b6.tail85b74c.ts.net",
+      "hostname": "runnervm8k3b6",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama lalu SSH ke user@ip -p 22."
     }
-  },
-  "handover": {
-    "status": "dispatched",
-    "at": "2026-10-22T13:50:36Z"
-  },
-  "stopped_at": "2026-10-22T14:09:30Z"
+  }
 }
