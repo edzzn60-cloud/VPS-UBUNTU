@@ -30,5 +30,9 @@
       "hostname": "runnervm8k3b6",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama lalu SSH ke user@ip -p 22."
     }
+  },
+  "handover": {
+    "status": "dispatched",
+    "at": "2026-10-27T08:30:54Z"
   }
 }
